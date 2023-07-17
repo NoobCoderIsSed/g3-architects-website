@@ -78,7 +78,7 @@ nav li a {
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .team-container {
@@ -128,9 +128,19 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .team-container
+    {
         flex-direction: column;
     }
+    .team-photo {
+        grid-template-columns: 1fr;
+    }
+    .team-content {
+        padding-left: 10px;
+        padding-right: 1j0px;
+    }
+
 
 }
 
@@ -142,7 +152,7 @@ main {
     }
 
 
-    nav {
+    nav, .team-container {
         flex-direction: column;
     }
 
